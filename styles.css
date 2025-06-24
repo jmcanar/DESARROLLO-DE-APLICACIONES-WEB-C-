@@ -2,20 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: white
 }
 
 header {
-    background-color: #333;
+    background-color: rgb(0, 255, 17);
     color: white;
     text-align: center;
     padding: 1em;
 }
 
 .logo {
-    max-width: 200px;
+    display: block;
+    max-width: 150px;
     height: auto;
-    margin-bottom: 0.5em;
+    margin-bottom: -2.5em;
 }
 
 nav ul {
@@ -29,12 +30,13 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(28, 6, 6);
     text-decoration: none;
 }
 
 h1 {
     color: #333;
+    margin-bottom: -2.5em;
 }
 
 h2 {
@@ -130,3 +132,30 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.contenedor {
+    background-image: url('imagen2.png');
+    background-size: contain; /* Ajusta la imagen dentro del contenedor */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+}
+.search-bar {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+            width: 250px;
+        }
+.search-bar input {
+            border: none;
+            outline: none;
+            padding: 5px;
+            width: 100%;
+        }
+.search-bar img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
